@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Hi there 👋, I'm Mahdy Firmansyah!
+  Hi there 👋, I'm Mahdy!
 </h1>
 <h3 align="center">
   A Machine Learning Cohort at Asah Program 2025 🇮🇩 
