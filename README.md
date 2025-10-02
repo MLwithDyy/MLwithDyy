@@ -77,11 +77,11 @@ I am a passionate Machine Learning enthusiast and a cohort in the <strong>Asah P
 ### 📊 My GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MahdyFirmansyah&show_icons=true&locale=en&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MahdyFirmansyah&layout=compact&locale=en&theme=tokyonight" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MahdyFirmansyah&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MLwithDyy&show_icons=true&locale=en&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MLwithDyy&layout=compact&locale=en&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MLwithDyy&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 <p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=MahdyFirmansyah&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Visitor Counter" /> 
+  <img src="https://komarev.com/ghpvc/?username=MLwithDyy&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Visitor Counter" /> 
 </p>
