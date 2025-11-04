@@ -6,7 +6,7 @@
   Hi there 👋, I'm Mahdy!
 </h1>
 <h3 align="center">
-  A Machine Learning Cohort at Asah Program 2025 🇮🇩 
+  A Machine Learning Cohort at Asah Program 2025 by Dicoding And Accenture 🇮🇩 
 </h3>
 <h3 align="center">
   (https://www.dicoding.com/)<br>
