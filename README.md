@@ -1,87 +1,65 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnQ2MmJldG1kdThudTlmYnpubzJocjM4bm9xZ2Q4Z3gwbHZqMzM1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="80px">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnQ2MmJldG1kdThudTlmYnpubzJocjM4bm9xZ2Q4Z3gwbHZqMzM1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="80px" alt="Waving hand animation">
 </p>
 
-<h1 align="center">
-  Hi there 👋, I'm Mahdy!
-</h1>
-<h3 align="center">
-  A Machine Learning Cohort at Asah Program 2025 by Dicoding and Accenture 🇮🇩 
-</h3>
-<h3 align="center">
-  (https://www.dicoding.com/)<br>
-</h3>
+<h1 align="center">Hi there 👋, I'm Mahdy Firmansyah</h1>
+
+<h3 align="center">Physics student (Medical Physics) building machine learning for medical imaging and health tech</h3>
+
+<p align="center">Based in Banjarmasin, Indonesia. Open to junior roles in data science, machine learning and AI engineering, especially in health tech.</p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Machine Learning GIF" width="100%">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Machine learning animation" width="100%">
 </p>
 
----
+## About
 
-### 🙋‍♂️ About Me
+I study medical physics at Universitas Lambung Mangkurat (B.Sc. Physics, graduating 2026) and teach myself to ship machine learning that is tested honestly: patient-level data splits, confidence intervals and robustness checks rather than a single accuracy number. I completed the Machine Learning cohort of the Asah program 2025 by Dicoding and Accenture, and did a medical physics internship at RSUD Ulin.
 
-<p align="left">
-I am a passionate Machine Learning enthusiast and a cohort in the <strong>Asah Program 2025</strong>, dedicated to building intelligent systems and solving complex problems with data. I am eager to deepen my foundation in statistical modeling and develop end-to-end ML pipelines.
-</p>
+## Featured project
 
-- 🌱 I’m currently deepening my skills in **Machine Learning at the Asah Program 2025**.
-- 🔭 I’m currently working on **Cancer detection from medical images**.
-- 📫 How to reach me: **mahdyfirmansyah@gmail.com**.
-- ⚡ Fun fact: **I find joy in analyzing medical images to uncover hidden patterns!**.
+### [Pneumonia chest X-ray classifier](https://github.com/MLwithDyy/pneumonia-cxr)
 
----
+ResNet50 classifier for pediatric chest X-rays, with a live demo that runs entirely in the browser.
 
-### 🌐 Connect with Me
+- Test AUROC 0.988 (95% CI 0.979 to 0.995), sensitivity 0.978, specificity 0.923
+- Removed 50% duplicate images and split by patient ID to avoid data leakage
+- Checked robustness with Grad-CAM, occlusion tests and simple baselines, and documented the limits
+- Deployed as an in-browser ONNX demo and as a FastAPI + Docker service
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/mahdy-firmansyah-7b98bb205/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="[YOUR_LINKEDIN_USERNAME]" height="30" width="40" /></a>
-  <a href="https://twitter.com/[YOUR_TWITTER_USERNAME]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="[YOUR_TWITTER_USERNAME]" height="30" width="40" /></a>
-  <a href="https://kaggle.com/[YOUR_KAGGLE_USERNAME]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="[YOUR_KAGGLE_USERNAME]" height="30" width="40" /></a>
-  <a href="https://instagram.com/[YOUR_INSTAGRAM_USERNAME]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="[YOUR_INSTAGRAM_USERNAME]" height="30" width="40" /></a>
-</p>
+[Code](https://github.com/MLwithDyy/pneumonia-cxr) | [Live demo](ISI_URL_SPACE)
 
----
+## Up next
 
-### 🛠️ My Tech Stack
+- A retrieval-augmented assistant for medical physics documents, with a measured retrieval evaluation
 
-<h4>Languages:</h4>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-</p>
+## Earlier work
 
-<h4>ML/DL Frameworks:</h4>
-<p align="left">
-  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" alt="scikit-learn" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/keras/keras-original.svg" alt="keras" width="40" height="40"/>
-</p>
+- **AEGIS:** predictive maintenance copilot built with a team (LangChain agent, XGBoost and Isolation Forest for anomaly detection and fault diagnosis)
+- **Adaptive radiotherapy research:** machine learning to predict patient anatomy variation for cervical cancer planning
+- **Hyscell:** smart hydroponic system using IoT and solar energy
 
-<h4>Data Science Libraries:</h4>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/>
-  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
-</p>
+## Recognition
 
-<h4>Tools & Platforms:</h4>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
-</p>
+- 2nd place, KMI AWARD XV 2024, Manufacture and Applied Technology category
+- National Outstanding Student (Mahasiswa Berprestasi) of FMIPA ULM, 2024
 
----
+## Tools
 
-### 📊 My GitHub Stats
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MLwithDyy&show_icons=true&locale=en&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MLwithDyy&layout=compact&locale=en&theme=tokyonight" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MLwithDyy&theme=tokyonight" alt="GitHub Streak" />
-</p>
+NumPy, pandas, Matplotlib, LangChain, XGBoost, Google Colab.
 
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=MLwithDyy&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Visitor Counter" /> 
-</p>
+## Contact
+
+- Email: mahdyfirmansyah@gmail.com
+- LinkedIn: [mahdyfirmansyah](https://www.linkedin.com/in/mahdyfirmansyah-7b98bb205)
