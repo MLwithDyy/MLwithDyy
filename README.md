@@ -27,11 +27,16 @@ ResNet50 classifier for pediatric chest X-rays, with a live demo that runs entir
 - Checked robustness with Grad-CAM, occlusion tests and simple baselines, and documented the limits
 - Deployed as an in-browser ONNX demo and as a FastAPI + Docker service
 
-[Code](https://github.com/MLwithDyy/pneumonia-cxr) | [Live demo](ISI_URL_SPACE)
+[Code](https://github.com/MLwithDyy/pneumonia-cxr) | [Live demo](https://huggingface.co/spaces/DyyFirm/pneumonia-cxr)
 
-## Up next
+### [MedPhys RAG](https://github.com/MLwithDyy/medphys-rag)
 
-- A retrieval-augmented assistant for medical physics documents, with a measured retrieval evaluation
+Cited Q&A over 33 open-access medical physics papers, English and Indonesian, with refusal when the documents do not contain the answer.
+
+- Refused 10/10 out-of-corpus questions; 95% of answers faithful to the cited text (manual check on 40 answers)
+- Hybrid dense + BM25 retrieval, evaluated on 50 hand-written questions with confidence intervals and a documented failure analysis
+
+[Code](https://github.com/MLwithDyy/medphys-rag) | [Live demo](https://huggingface.co/spaces/DyyFirm/medphys-rag)
 
 ## Earlier work
 
