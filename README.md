@@ -38,6 +38,15 @@ Cited Q&A over 33 open-access medical physics papers, English and Indonesian, wi
 
 [Code](https://github.com/MLwithDyy/medphys-rag) | [Live demo](https://huggingface.co/spaces/DyyFirm/medphys-rag)
 
+### [Life expectancy across Indonesian provinces](https://github.com/MLwithDyy/indonesia-life-expectancy-by-province)
+
+Pre-planned analysis of life expectancy and socio-economic factors across 38 provinces (BPS 2024), with an interactive dashboard.
+
+- Analysis plan fixed before the analysis; bootstrap intervals and sensitivity checks reported even when results were weak
+- Poverty and sanitation relate to life expectancy (rho -0.65 and +0.66); the relation weakens but holds without the six Papua provinces
+
+[Code](https://github.com/MLwithDyy/indonesia-life-expectancy-by-province) | [Live dashboard](https://indonesia-life-expectancy-by-province-49pudwdszxhgxkepeuveba.streamlit.app/)
+
 ## Earlier work
 
 - **AEGIS:** predictive maintenance copilot built with a team (LangChain agent, XGBoost and Isolation Forest for anomaly detection and fault diagnosis)
