@@ -67,4 +67,4 @@ NumPy, pandas, Matplotlib, LangChain, XGBoost, Google Colab.
 ## Contact
 
 - Email: mahdyfirmansyah@gmail.com
-- LinkedIn: [mahdyfirmansyah](https://www.linkedin.com/in/mahdy-firmansyah-7b98bb205/)
+- LinkedIn: [mahdyfirmansyah](https://www.linkedin.com/in/mahdy-firmansyah/)
