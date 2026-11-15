@@ -47,6 +47,15 @@ Pre-planned analysis of life expectancy and socio-economic factors across 38 pro
 
 [Code](https://github.com/MLwithDyy/indonesia-life-expectancy-by-province) | [Live dashboard](https://indonesia-life-expectancy-by-province-49pudwdszxhgxkepeuveba.streamlit.app/)
 
+### [Gamma index from scratch](https://github.com/MLwithDyy/gamma-index-from-scratch)
+
+Tested implementation of the gamma index, the standard comparison used in radiotherapy quality assurance, with a study of how pass rates respond to controlled errors.
+
+- 13 unit tests with answers derived on paper (shifts, scale errors, global and local normalisation), run in CI on every push
+- Plan and expectations fixed before the scenarios were run; mismatches reported openly: local gamma had not fully converged with the search step, and pass rates are nearly blind to random noise unless the distance criterion is tight
+
+[Code](https://github.com/MLwithDyy/gamma-index-from-scratch) | [Results](https://github.com/MLwithDyy/gamma-index-from-scratch/tree/main/results)
+
 ## Earlier work
 
 - **AEGIS:** predictive maintenance copilot built with a team (LangChain agent, XGBoost and Isolation Forest for anomaly detection and fault diagnosis)
