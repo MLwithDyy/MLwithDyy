@@ -18,6 +18,16 @@ I study medical physics at Universitas Lambung Mangkurat (B.Sc. Physics, graduat
 
 ## Featured project
 
+### [rt-imaging-mcp](https://github.com/MLwithDyy/rt-imaging-mcp)
+
+Local, read-only Model Context Protocol (MCP) server that lets AI agents inspect DICOM, NIfTI, and radiotherapy files (RTSTRUCT, RTDOSE, RTPLAN) with PHI-safe output by default.
+
+- Strict tag allowlist, TG-263-style structure name filtering, single-root sandboxing, and static tests enforcing zero write or network operations
+- Approximate DVH metrics (D95, D2, V20 Gy) checked against analytical phantoms and dicompyler-core across 39 structures (mean dose, D50, and D2 within tolerance; remaining D95/V(t) gaps and pre-alpha status documented openly)
+- Published on PyPI (`uvx rt-imaging-mcp`) with CI across Python 3.11–3.13 on Linux and Windows
+
+[Code](https://github.com/MLwithDyy/rt-imaging-mcp) | [PyPI](https://pypi.org/project/rt-imaging-mcp/)
+
 ### [Pneumonia chest X-ray classifier](https://github.com/MLwithDyy/pneumonia-cxr)
 
 ResNet50 classifier for pediatric chest X-rays, with a live demo that runs entirely in the browser.
@@ -80,7 +90,7 @@ Tested implementation of the gamma index, the standard comparison used in radiot
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 
-NumPy, pandas, Matplotlib, LangChain, XGBoost, Google Colab.
+NumPy, pandas, Matplotlib, LangChain, Model Context Protocol (MCP), XGBoost, Google Colab.
 
 ## Contact
 
